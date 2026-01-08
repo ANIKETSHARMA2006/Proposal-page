@@ -14,5 +14,5 @@ function yes(){
     left.style.display="none";
     rightBox.style.display="none";
 }
-rightBox.addEventListener("click",move);
+rightBox.addEventListener("mouseenter",move);
 left.addEventListener("click",yes);
